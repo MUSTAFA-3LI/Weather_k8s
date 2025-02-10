@@ -16,6 +16,6 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: weatherapp-ui
+                name: weatherapp-ui 
                 port:
                   number: 3000

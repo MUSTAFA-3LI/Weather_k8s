@@ -11,4 +11,4 @@ spec:
       protocol: TCP
       name: http
   selector:
-    app.kubernetes.io/name: weatherapp-ui
+    app.kubernetes.io/name: weatherapp-ui 

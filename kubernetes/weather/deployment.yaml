@@ -24,9 +24,16 @@ spec:
                 key: apikey
                 name: weather
           ports:
-            - name: http
+            - name: http 
               containerPort: 5000
               protocol: TCP
+          resources:
+            limits:
+              memory: "512Mi"
+              cpu: "500m"
+            requests:
+              memory: "256Mi" 
+              cpu: "250m"
           livenessProbe:
             httpGet:
               path: /

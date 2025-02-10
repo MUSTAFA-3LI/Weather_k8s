@@ -8,7 +8,7 @@ CORS(app)
 
 @app.route("/")
 def health():
-    return "The service is running", 200
+    return "The service is running", 200 
 
 @app.errorhandler(Exception)
 def handle_error(error):

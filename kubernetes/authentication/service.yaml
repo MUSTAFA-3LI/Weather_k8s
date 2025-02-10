@@ -9,4 +9,4 @@ spec:
       targetPort: 8080
       protocol: TCP
   selector:
-    app.kubernetes.io/name: weatherapp-auth
+    app.kubernetes.io/name: weatherapp-auth 

@@ -8,7 +8,7 @@ spec:
       containers:
       - name: mysql-init-container
         image: mysql:5.7
-        env:
+        env: 
         - name: MYSQL_ROOT_PASSWORD
           valueFrom:
             secretKeyRef:

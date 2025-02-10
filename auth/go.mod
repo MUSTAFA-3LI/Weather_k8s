@@ -1,4 +1,4 @@
-module weatherapp.com/auth
+module weatherapp.com/auth 
 
 replace weatherapp.com/auth/authdb => ./authdb
 

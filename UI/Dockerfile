@@ -5,4 +5,4 @@ RUN npm install
 COPY . .
 EXPOSE 3000
 ENTRYPOINT ["node"]
-CMD [ "app.js" ]
+CMD [ "app.js" ] 
